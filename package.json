@@ -1,10 +1,14 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon dist"
+  },
   "devDependencies": {
     "@types/express": "^4.17.6",
+    "nodemon": "^2.0.3",
     "typescript": "^3.8.3"
   },
   "dependencies": {
